@@ -24,7 +24,7 @@ import logging
 import struct
 from uuid import UUID
 
-from pyhap import RESOURCE_DIR
+from pyhap.runtime import RESOURCE_DIR
 from pyhap.accessory import Accessory
 from pyhap.const import CATEGORY_CAMERA
 from pyhap.util import to_base64_str, byte_bool

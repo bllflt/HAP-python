@@ -10,7 +10,7 @@ json file).
 import json
 import logging
 
-from pyhap import CHARACTERISTICS_FILE, SERVICES_FILE
+from pyhap.runtime import CHARACTERISTICS_FILE, SERVICES_FILE
 from pyhap.characteristic import Characteristic
 from pyhap.service import Service
 

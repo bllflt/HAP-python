@@ -1,7 +1,7 @@
 """Tests for pyhap.loader."""
 import pytest
 
-from pyhap import CHARACTERISTICS_FILE, SERVICES_FILE
+from pyhap.runtime import CHARACTERISTICS_FILE, SERVICES_FILE
 from pyhap.characteristic import Characteristic
 from pyhap.loader import Loader, get_loader
 from pyhap.service import Service

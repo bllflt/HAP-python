@@ -2,7 +2,7 @@
 import functools
 from uuid import UUID
 
-from pyhap import util
+import pyhap.util as util
 
 
 @util.callback

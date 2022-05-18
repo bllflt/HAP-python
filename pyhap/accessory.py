@@ -3,7 +3,8 @@ import itertools
 import logging
 
 from uuid import UUID
-from pyhap import SUPPORT_QR_CODE, util
+from pyhap.runtime import SUPPORT_QR_CODE
+import pyhap.util as util
 from pyhap.const import (
     CATEGORY_BRIDGE,
     CATEGORY_OTHER,

@@ -1,7 +1,7 @@
 """Module for `State` class."""
 from cryptography.hazmat.primitives.asymmetric import ed25519
 
-from pyhap import util
+import pyhap.util as util
 from pyhap.const import (
     CLIENT_PROP_PERMS,
     DEFAULT_CONFIG_VERSION,

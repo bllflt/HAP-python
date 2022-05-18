@@ -31,7 +31,7 @@ import threading
 from zeroconf import ServiceInfo
 from zeroconf.asyncio import AsyncZeroconf
 
-from pyhap import util
+import pyhap.util as util
 from pyhap.accessory import get_topic
 from pyhap.characteristic import CharacteristicError
 from pyhap.const import (

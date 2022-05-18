@@ -9,7 +9,7 @@ from cryptography.hazmat.primitives import serialization
 import pytest
 from zeroconf import InterfaceChoice
 
-from pyhap import util
+import pyhap.util as util
 from pyhap.accessory import STANDALONE_AID, Accessory, Bridge
 from pyhap.accessory_driver import AccessoryDriver, AccessoryMDNSServiceInfo
 from pyhap.characteristic import (
